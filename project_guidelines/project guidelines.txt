@@ -1,0 +1,76 @@
+Hopin tech dry run: May 24
+Presentation day: May 25
+Demo day: May 26
+
+STRICT LENGTH : 5 MINS
+- Private session breakout rooms afterwards 
+
+Scoping out the Project::
+What is the dataset? Is there one available?
+- hockey-reference.com
+What are the inputs/outputs of the model? (as numbers)
+What do you want to do with your model? 
+- forecast next season's stats
+Is machine learning necessary? 
+- idk but it's gotta be time series
+
+
+Additional Considerations: 
+- Unless you want a big challenge, avoid learning something
+new (reinforcement learning, GANs)
+- Is there prior work that can help you out? 
+- Is it computationally expensive? 
+
+If your accuracy is lower, explain why:
+if you're doing something different than someone else, 
+explain why: 
+- is it better / more efficient your way? 
+- is it less computationally expensive? 
+
+
+Iterative progress and difficulty
+- make a minimum viable product ***EARLY!!!***
+- 
+
+
+MILESTONES
+Each item must be SPECIFIC and DATED
+1. Research prior work 
+2. Acquire / preprocess / explore dataset 
+3. Design model
+4. Train and evaluate model 
+5. Perform experiments (if any) 
+6. Deploy model (or make figures)
+7. Finish presentation 
+
+
+
+Deployment and Demo options 
+- You don't need to deploy or demo anything (good figures
+can work just as well)
+- Consider whether the demo is too long or risky 
+- Deployment options: 
+Flask API (might demo with Postman)
+Flask app with UI (hard, need to write HTML)
+AWS remote Flask app (faster machine, $$)
+Mobile app (hardest)
+streamlit.io (good if you want UI, but learning a new library)
+
+
+Code
+- Define functions whenever possible (ex: clean_data(df))
+- Use pipelines for joint preprocessing, feature engineering, 
+and model
+- If using deep learning, generate training/validation curves 
+as a function of epoch to see if your model is improving 
+- Save trained models and only retrain when needed
+- Consider using ordinary .py files (like notebooks) so 
+that you can split the project up into multiple files 
+(data_cleaning.py, training.py, app.py)
+- DON'T SHOW ANY CODE IN THE PRESENTATION 
+
+
+Presentation: 
+- you're showing off to employers 
+- you explain the scope of the problem, and how you would 
+solve it for them 

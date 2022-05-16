@@ -1,0 +1,6 @@
+1st model: predict points 
+2nd model: predict goals, assists
+3rd model: using p/60 (or g/60, a/60) and average TOI, 
+predict points (or goals, assists)
+
+separate model to incorporate expected sv% for goalies
