@@ -1,0 +1,12 @@
+take the stats for a subset of players for 
+season 1 
+- for those players take 1 metric for season 2 
+engineer a feature "Amount of goals next season"
+
+predict 
+
+give the model  the 
+this person has X amount of goals, ice time, 
+potential to be a top scorer in the future * out of scope
+
+present varied approaches to the problem 
